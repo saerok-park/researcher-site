@@ -1,12 +1,12 @@
 :root {
   color-scheme: light;
-  --background: #f8f7f3;
-  --ink: #222222;
-  --muted: #635f5a;
-  --quiet: #8b857c;
-  --rule: #ddd8cf;
-  --link: #315f75;
-  --link-hover: #7a3f34;
+  --background: #f7f8f3;
+  --ink: #1e2a24;
+  --muted: #5e6860;
+  --quiet: #7b857a;
+  --rule: #d7ded2;
+  --link: #1f5d46;
+  --link-hover: #2f734f;
   --measure: 760px;
 }
 
@@ -156,7 +156,7 @@ li {
 
 .summary {
   max-width: var(--measure);
-  color: #383532;
+  color: #2f3a34;
   font-size: clamp(1.2rem, 2.4vw, 1.45rem);
   line-height: 1.65;
 }
@@ -223,7 +223,7 @@ li {
   display: grid;
   grid-template-columns: 135px minmax(0, 1fr);
   gap: 1.4rem;
-  border-top: 1px solid rgba(221, 216, 207, 0.82);
+  border-top: 1px solid rgba(215, 222, 210, 0.86);
   padding-top: 1.25rem;
   margin-top: 1.25rem;
 }
