@@ -1,12 +1,11 @@
 :root {
   color-scheme: light;
   --background: #f8f7f3;
-  --paper: #ffffff;
   --ink: #222222;
-  --muted: #66625d;
-  --quiet: #8a8580;
+  --muted: #635f5a;
+  --quiet: #8b857c;
   --rule: #ddd8cf;
-  --link: #365f73;
+  --link: #315f75;
   --link-hover: #7a3f34;
   --measure: 760px;
 }
@@ -49,19 +48,18 @@ h1,
 h2,
 h3 {
   font-weight: 500;
+  letter-spacing: 0;
   line-height: 1.2;
 }
 
 h1 {
   margin-bottom: 1rem;
   font-size: clamp(3rem, 8vw, 5.7rem);
-  letter-spacing: 0;
 }
 
 h2 {
   margin-bottom: 1.25rem;
   font-size: clamp(2rem, 4vw, 3rem);
-  letter-spacing: 0;
 }
 
 h3 {
@@ -173,10 +171,6 @@ li {
   font-size: 0.95rem;
 }
 
-.contact a {
-  color: var(--link);
-}
-
 .section {
   display: grid;
   grid-template-columns: 160px minmax(0, 1fr);
@@ -217,6 +211,7 @@ li {
 
 .citation-list li {
   margin-bottom: 0;
+  overflow-wrap: anywhere;
 }
 
 .text-list {

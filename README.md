@@ -1,6 +1,6 @@
 # Saerok Park Academic Profile
 
-Single-page academic researcher profile built with plain HTML and CSS.
+Single-page academic researcher profile built from `Park_CV_codex.docx` with plain HTML and CSS.
 
 ## Files
 
@@ -10,7 +10,9 @@ Single-page academic researcher profile built with plain HTML and CSS.
 
 ## GitHub Pages
 
-This project is ready to publish from the repository root on the `main` branch. In GitHub, enable Pages with:
+This project is ready to publish from the repository root on the `main` branch.
+
+In GitHub, enable Pages with:
 
 - Source: `Deploy from a branch`
 - Branch: `main`
